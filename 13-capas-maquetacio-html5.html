@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Maquetación por capas</title>
+    <style>
+        * {box-sizing: border-box;}
+        div {border: 5px solid black;}
+        header {width: 100%;height: 200px;
+            background-image: url("imagenes/perros1.jpg");
+        }
+        nav {width: 100%;height: 40px;}
+        footer {width: 100%;height: 200px;}
+        aside {width: 30%;height: 600px;float: left;}
+        main {width: 100%;height: 600px;
+            background: linear-gradient(to top, blue, red);
+        }
+        .logo {width: 200px;float: left;margin-right: 50px;}
+
+        /* Estilos para el menú */
+        ul {list-style-type: none;font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;float:right}
+        li {float: left;
+            background-color: yellow;color:blue;
+            }
+        img {padding-right: 5px;}
+        ul li a {background-color: yellow;
+            padding: 10px;
+            text-decoration: none;}
+        ul li a:hover {background-color: blue;color:yellow}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/casa-montana.png">
+        <nav>
+            
+                <li><a href="#"><img src="imagenes/home.png">HOME</a></li>
+                <li><a href="#"><img src="imagenes/usu.png">ABOUT</a></li>
+                <li><a href="#"><img src="imagenes/arriba.png">PORTFOLIO</a></li>
+                <li><a href="#"><img src="imagenes/engrana.png">SERVICES</a></li>
+            
+        </nav>
+    
+        <nav>
+            <ul>
+                <li><a href="#"><img src="imagenes/home.png">HOME</a></li>
+                <li><a href="#"><img src="imagenes/usu.png">ABOUT</a></li>
+                <li><a href="#"><img src="imagenes/arriba.png">PORTFOLIO</a></li>
+                <li><a href="#"><img src="imagenes/engrana.png">SERVICES</a></li>
+            </ul>
+        </nav>    
+    </header> 
+    <aside> ...
+    </aside>
+    <main>
+        <audio src="https://losbandoleros.pro/wp-content/uploads/2022/07/Rosalia-–-Despecha-.mp3" controls></audio>
+        <video width="600px" src="https://www.youtube.com/embed/yIuBWL3071E" controls>
+
+        </video>
+        <iframe width="160" src="https://www.youtube.com/embed/yIuBWL3071E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3V88Qpa6UlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </main>
+    <footer> 
+        <div id="footer1"></div>
+    </footer>
+
+</body>
+</html>

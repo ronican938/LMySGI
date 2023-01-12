@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <style>
+        table {width: 100%;}
+        form {width: 70%;margin: auto;}
+        form,td {border:1px double red}
+        input,select,textarea {box-shadow: 5px 5px 5px;border-radius: 5px;width: 200px;}
+        span {color:blue;}
+        .col2 {width: 70%;}
+        
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+      <table>
+        <tr><td><label for="nombre">Nombre </label></td><td class="col2"><input type="text" name="nombre" required><span>*</span></td></tr>
+        <tr><td><label for="apellidos">Apellidos </label></td><td class="col2"><input type="text" name="apellidos" required><span>*</span></td></tr>
+        <tr><td><label for="direccion">Dirección </label></td><td class="col2"><input type="text" name="direccion"></td></tr>
+        <tr><td><label for="ciudad">ciudad </label></td><td class="col2"><input type="text" name="ciudad"></td></tr>
+        <tr><td><label for="provincia">Provincia/Estado</label></td><td class="col2"><input type="text" name="provincia"> </td></tr>
+        <tr><td><label for="cp">Código postal:</label></td><td class="col2"><input type="text" name="cp"> </td></tr>
+        <tr><td><label for="pais">País </label></td><td class="col2"><input type="text" name="pais"></td></tr>
+        <tr><td><label for="dni">DNI:</label></td><td class="col2"><input type="text" name=" dni"></td></tr>
+        <tr><td><label for="usuario">Nombre usuario </label></td><td class="col2"><input type="text" name="usuario"></td></tr>
+        <tr><td><label for="contra">Contraseña </label></td><td class="col2"><input type="text" name="contra"></td></tr>
+        <tr><td><label for="repcontra">Repetir contraseña</label></td><td class="col2"><input type="text" name="repcontra"> </td></tr>
+        <tr><td><label for="email">correo electrónico</label></td><td class="col2"><input type="text" name="email"></td></tr>
+        <tr><td><label for="tlf">Teléfono </label></td><td class="col2"><input type="text" name="tlf"></td></tr>
+        <tr><td><label for="color">Color </label></td><td class="col2"><input type="text" name="color"></td></tr>
+      </form>
+</body>
+</html>

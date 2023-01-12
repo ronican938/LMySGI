@@ -1,0 +1,36 @@
+* {box-sizing: border-box;}
+/* Tenemos varias formas de definir colores */
+h2 {color:#f3b7aa}
+h3 {color:#44ffaa}
+h3 {color:#81BBFF}
+h3 {color:rgb(100%, 0%, 0%)}
+
+h1 {
+    font-size: 70pt;
+    color:blue;
+    font-weight: 900;
+    /* Estilos aplicados al texto */
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+
+p {color:blueviolet;font-size: 20pt;}
+
+body {text-align: justify;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/* Estilos de clase: Se crean a partir de un nombre que se define para ese estilo*/
+.azul {
+ color:blue;    
+ font-size: 30pt;
+}
+.alineacion-centrada {
+    text-align: center;
+}
+/* Estilos con  ID: Se crean a partir de un identificador único*/
+#parrafo1 {
+    color:red;    
+    font-size: 30pt;
+    text-align: center;
+}

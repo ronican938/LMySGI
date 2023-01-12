@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios de repaso</title>
+    <link rel="style-sheet" href="">
+    <style>
+        ul {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: red;
+            border:2px solid blue;
+            height: 80px;
+            width: 500px;
+            list-style-type: none;
+            margin:auto;
+            border-radius: 50px;
+        }
+        li {float: left;
+            margin:30px 10px 0px 10px
+        }
+        /* Estado link, visited, active, hover */
+        ul li a {
+            text-decoration: none;
+            border-radius: 100%;
+            padding: 20px;
+            background-color: blue;
+            color:white;
+            border: 3px solid blue;
+        }
+        /* Estado hover */
+        ul li a:hover {
+            text-decoration: underline;
+            background-color: white;
+            color:blue;
+            font-weight: 900;
+        }
+
+
+    </style>
+</head>
+<body>
+    <a href="#">Enlace fuera del menú</a>
+    <!-- Vamos a realizar un menú -->
+    <ul>
+        <li>
+            <a href="#" title="Ir al inicio">
+                <img alt="Ir al inicio" src="icono-casa.png" title="Ir al inicio">
+                Ir al inicio
+            </a>
+        </li>
+        <li><a href="#">Botón 2</a></li>
+        <li><a href="#">Botón 3</a></li>
+        <li><a href="#">Botón 4</a></li>
+    </ul>
+    <style>
+        table,tr,th,td {border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;}                
+        table {border: 3px dotted red}
+        .hfila {color: beige;background-color: brown;}
+        .hcolumna {color:aquamarine;background-color: violet;}
+        /* th {color:azure;background-color: violet;} */
+        td {color: aqua;background-color: blueviolet;}
+        .hueco {color:white;background-color: white;border:none}    
+    </style>
+    <br><br>
+    <table>
+        <caption>Encabezado de tabla</caption>
+        <tr>
+            <th class="hueco">&nbsp;</th>
+            <th class="hcolumna">Col1</th>
+            <th class="hcolumna">Col2</th>
+            <th class="hcolumna">Col3</th>
+        </tr>
+        <tr>
+            <th class="hfila">Fila1</th>
+            <td rowspan="2">1,1 y 2,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+        </tr>
+        <tr>
+            <th class="hfila">Fila2</th>
+            <td>2,2</td>
+            <td>3,2</td>
+        </tr>
+        <tr>
+            <th class="hfila">Fila3</th>
+            <td>3,1</td>
+            <td colspan="2">3,2 y 3,3</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
