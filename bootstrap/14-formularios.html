@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <form name="form1" action="mailto:rafaelonieva@hotmail.com" method="post">
+        <!-- cuadro de texto -->
+        <br> <input  class="form-control" type="submit" name="submit" value="Enviar"><input  class="form-control" type="reset" id="reset" name="reset" value="Borrar">
+
+        <br><label for="nombre">Nombre:</label> <input  class="form-control" type="text" id="nombre" name="nombre" value="" placeholder="Nombre" size="30" maxlength="20">
+        <br><label for="checkbox">checkbox:</label> 
+        <input  type="checkbox" id="checkbox" name="checkbox" checked>
+        <input  type="checkbox" id="checkbox" name="checkbox">
+        <br><label for="color">Color:</label> <input  class="form-control" type="color" id="color" name="color" value="#ff0000">
+        <br><label for="fecha">Fecha:</label> <input  class="form-control" type="date" id="fecha" name="fecha" value="2022-12-09">
+        <br><label for="fechaHora">fechaHora:</label> <input  class="form-control" type="datetime-local" id="fechaHora" name="fechaHora" value="">
+        <br><label for="email">Correo electrónico:</label> <input  class="form-control" type="email" id="email" name="email" value="" placeholder="Email">
+        <br><label for="valOculto">Variable oculta:</label> <input  class="form-control" type="hidden" name="valOculto" value="oculto">
+        <br><label for="mes">Seleccione un mes:</label> <input  class="form-control" type="month" name="mes" value="">
+        <br><label for="numero">Seleccione un número:</label> <input  class="form-control" type="number" name="numero" value="numero">
+        <br><label for="contrasena">Contraseña:</label> <input  class="form-control" type="password" name="contrasena" value="" minlength="8">
+        <br><label for="sexo">Sexo:</label> Mujer <input  class="form-control" type="radio" name="sexo" value="mujer">
+        Hombre <input  class="form-control" type="radio" name="sexo" value="hombre">
+        <br><label for="sexo">Estudios:</label> ESO <input  class="form-control" type="radio" name="estudios" value="ESO">
+        Bachillerato <input  class="form-control" type="radio" name="estudios" value="bachillerato">
+        Graduado <input  class="form-control" type="radio" name="estudios" value="graduado">
+        Post Grado <input  class="form-control" type="radio" name="estudios" value="postgrado">
+        <br><label for="numero">Selecciona tu edad:</label> <input  class="form-control" type="range" min="0" max="130" step="1" name="edad" value="18">
+        <br><label for="numero">Busca algo:</label> <input  class="form-control" type="search" name="buscar" value="buscar">
+        <!-- Textarea -->
+        <br><textarea name="observaciones" rows="10" cols="50">El texto que aparece se pone entre las dos etiquetas, la de apertura y cierre</textarea>
+        <!-- Listas desplegables -->
+        <br>Perfil profesional:
+        <select name="profesion" required>
+            <option value="" selected>Selecciona un perfil profesional</option>
+            <option value="PR">Programador</option>
+            <option value="AP">Analista programador</option>
+            <option value="JP">Jefe de proyecto</option>
+            <option value="AS">Analista de sistemas</option>
+            <option value="DI">Director</option>
+        </select>
+        <br> <input  class="form-control" type="submit" name="submit" value="Enviar"><input  class="form-control" type="reset" id="reset" name="reset" value="Borrar">
+
+    </form>
+</body>
+</html>
